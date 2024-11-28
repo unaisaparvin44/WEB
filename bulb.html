@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Turn On/Off Light Bulb</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 50px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            transition: all 0.3s ease;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Image representing the light bulb -->
+    <img id="lightBulb" src="bulb1.jpeg" alt="Light Bulb">
+
+    <!-- Button to toggle the light bulb -->
+    <button id="toggleButton">Turn On</button>
+
+    <script>
+        
+        const lightBulb = document.getElementById('lightBulb');
+        const toggleButton = document.getElementById('toggleButton');
+
+        
+        let isOn = false;
+
+        
+        toggleButton.addEventListener('click', function() {
+            if (isOn) {
+               
+                lightBulb.src = "bulnon2.jpeg";
+                toggleButton.textContent = 'Turn On'; 
+            } else {
+                
+                lightBulb.src = 'bulb1.jpeg';
+                toggleButton.textContent = 'Turn Off'; 
+            }
+
+            
+            isOn = !isOn;
+        });
+    </script>
+
+</body>
+</html>
+

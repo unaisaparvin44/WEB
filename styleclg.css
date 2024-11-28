@@ -1,0 +1,82 @@
+h1{
+    color:red;
+    text-align:center;
+ }
+.marquee{
+height:50px;
+direction:left;
+border: 1px solid red;
+}
+.marquee2{
+height:50px;
+direction:left;
+border: 1px solid blue;
+}
+h2{
+   color:red;
+   text-align:center;
+   background:red;
+
+}
+p{
+   color:white;
+   text-align: justify;
+   background:red;
+   border:2px solid black;
+   
+}
+img{ 
+    width:300px;
+     height:300px;
+ display:block;  
+     margin-left:500px;
+ }
+.p1{
+      color:white;
+   text-align: justify;
+ background:red;
+    
+}
+.us{
+    color:red;
+  
+   border:2px solid black;
+   border-radius:10px;
+}
+.course{
+      color:red;
+   border:2px solid black;
+   border-radius:10px;
+}
+.p2{
+     color:white;
+   text-align: justify;
+ background:red;
+}
+table,th,td{
+  border:2px solid red;
+  border-radius:10px;            
+  text-align:center;
+  padding:10px;
+  margin-left:500px;
+
+}
+.table2{
+   border:2px solid black;
+  border-radius:10px;            
+  text-align:center;
+  padding:10px;
+  margin-left:500px;
+ }
+.contact{
+     color:red;
+  
+   border:2px solid black;
+   border-radius:10px;
+}
+.h4{
+    color:brown;
+}
+.num{
+    color:blue;
+}

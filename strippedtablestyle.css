@@ -1,0 +1,27 @@
+#table{
+      border:1px solid black;
+       border-collapse: collapse;
+       font-family:Arial;
+       width:100%;
+
+}
+#table th{
+   padding-top:20px;
+   padding-bottom:20px;
+   color:white;
+   background-color:red;
+  
+   border:1px solid grey;
+  
+}
+#table td{
+  padding:8px;
+ border:1px solid grey;
+  
+
+}
+tr:hover{background-color:burlywood;}
+tr:nth-child(odd){
+    background-color:#f2f2f2;
+}
+
